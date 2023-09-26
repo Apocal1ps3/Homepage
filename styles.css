@@ -1,83 +1,67 @@
 .top-container {
-background-image: url("./images/diagmonds-light.png");
-background-color: #E3FDFD;
-position: relative;
-padding-top: 200px;
-height: 650px;
-width: 100%;
-z-index: -1;
+    position: relative;
+    height: 1080px;
+    width: 100%;
+    z-index: -1;
 }
-
+    
 .mid-container {
-    background-color: #CBF1F5;
+    background-color: #d4eff1;
     background-image: url("./images/skulls.png");
 }
-
+    
 body {
     text-align: center;
-    background-color: #A6E3E9;
-    background-image: url("./images/tileable-wood.png");
+    background-color: #CBF1F5;
+    background-image: url("./images/leaves.png");
 }
-
+    
 .bottom-container {
-    background-color: #71C9CE;
+    background-color: #96dee2;
     position: relative;
     padding: 5px 0 10px;
     background-image: url("./images/subtle-grey.png");
 }
-
-.top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 35px;
-    z-index: -1;
-}
-
-.bottom-cloud {
-    position: absolute;
-    left: 300px;
-    top: 230px;
-    z-index: -1;
-}
-
+    
 div {
     display: block;
 }
 
 h1 {
-    font-size: 5.625rem;
-    margin: -550px auto 0 auto;
+    font-size: 6rem;
     font-family: 'Dancing Script', cursive;
-    color:#3D0C11;
 }
 
-.mountain{
-    position:relative;
-    top: 50px;
-    z-index: -1;
+.content {
+    position: absolute;
+    top: 450px;
+    color: #fce4e7;
+    width: 100%;
+    padding: 20px;
+    opacity: 70%;
 }
-
+    
 .profile-photo {
     border-radius: 20%;
 }
-
+    
 h2 {
     font-family: 'Dancing Script', cursive;
 }
-
+    
 .small-text {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family:'Dancing Script', cursive;
-    color:#3D0C11;
+    color:#fce4e7;
 }
-
+    
 hr {
     border: dotted #030303 6px;
     border-bottom: none;
     width: 6%;
     margin: 100px auto;
 }
-
+    
 .btn {
     background: blue;
     border-radius: 8;
